@@ -86,7 +86,7 @@ In his view, when using the include, you must pass an array ``els``  through eac
 In ``config/tinymce.php`` have the settings of your editor: <br>
 Set the path of ``tinymce.min.js`` file:
 ```
-'cdn' => config('app.url').'/vendor/js/tinymce/tinymce.min.js',
+'cdn' => url('/vendor/js/tinymce/tinymce.min.js'),
 ```
 
 ### Customization
