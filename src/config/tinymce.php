@@ -2,7 +2,7 @@
 
 return [
 
-	'cdn' => url('vendor/js/tinymce/tinymce.min.js'),
+	'cdn' => $app->runningInConsole() ? config('app.url') : url('vendor/js/tinymce/tinymce.min.js'),
 
 	'default' => [
 		"selector" => ".tinymce",
