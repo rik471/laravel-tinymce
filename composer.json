@@ -1,5 +1,5 @@
 {
-    "name": "ktquez/laravel-tinymce",
+    "name": "rik471/laravel-tinymce",
     "description": "TinyMCE editor for Laravel and Lumen Framework",
     "keywords": ["lumen","laravel","tinymce","ckeditor","editor","WYSIWYG","textarea"],
     "homepage": "https://github.com/ktquez/laravel-tinymce",
@@ -9,6 +9,10 @@
             "name": "Alan Albuquerque: ktquez",
             "website": "http://ktquez.com",
             "email": "ktquez@gmail.com"
+        },
+        {
+        	"name": "Rickson G. Oliveira",
+        	"email": "riksongleison471@gmail.com"
         }
     ],
     "autoload":{
